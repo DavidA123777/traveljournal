@@ -1,0 +1,137 @@
+body{
+    padding-top: 4.25rem;
+    padding-left: 2.5rem;
+    margin: 0;
+}
+
+
+nav{
+height: 3.5rem;
+background-color: #F55A5A;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.nav-text{
+    margin-left: 0.75rem;
+    width: 7.7rem;
+height: 1rem;
+font-family: 'Inter';
+font-weight: 500;
+font-size: 1.12rem;
+line-height: 1rem;
+letter-spacing: -0.075em;
+color: #FFFFFF;
+}
+.card-container{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.card-image{
+    width: 7.875rem;
+height: 10.5rem;
+margin-right: 1.25rem;
+
+border-radius: 5px;
+}
+.country{
+width: auto;
+height: 0.625rem;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 0.65rem;
+line-height: 0.75rem;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+
+
+}
+.maps-link{
+    width: 6.75rem;
+height: 0.625rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 0.65rem;
+line-height: 0.75rem;
+
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+.card-top-row{
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 0.75rem;
+    align-items: center;
+    
+}
+
+.time{
+width: 20rem;
+height: 0.7rem;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 0.65rem;
+line-height: 0.75rem;
+
+color: #2B283A;
+
+
+}
+.description{
+width: 20.375rem;
+height: 3.75rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 0.63rem;
+line-height: 150%;
+
+/* or 15px */
+
+color: #2B283A;
+}
+.title{
+width: 20.375rem;
+height: 2.06rem;
+left: 11.5rem;
+top: 20.8rem;
+margin: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 1.563rem;
+line-height: 1.875rem;
+
+color: #2B283A;
+
+}
+
+hr{
+width: 29.875rem;
+height: 0px;
+border: 0.063rem solid #F5F5F5;
+}
+.top-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: .25rem;
+}
